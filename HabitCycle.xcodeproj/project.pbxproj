@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE06E97A2C281E7E00A5CE38 /* ActivityDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06E9792C281E7E00A5CE38 /* ActivityDetailsView.swift */; };
 		DE59CC372C235BF600D0AAD8 /* HabitCycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59CC362C235BF600D0AAD8 /* HabitCycleApp.swift */; };
 		DE59CC392C235BF600D0AAD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59CC382C235BF600D0AAD8 /* ContentView.swift */; };
 		DE59CC3B2C235BF700D0AAD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE59CC3A2C235BF700D0AAD8 /* Assets.xcassets */; };
 		DE59CC3E2C235BF700D0AAD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE59CC3D2C235BF700D0AAD8 /* Preview Assets.xcassets */; };
+		DED9FDD72C277A4700AFFF28 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9FDD62C277A4700AFFF28 /* Activity.swift */; };
+		DED9FDD92C2785BE00AFFF28 /* ActivityAddForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9FDD82C2785BE00AFFF28 /* ActivityAddForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE06E9792C281E7E00A5CE38 /* ActivityDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailsView.swift; sourceTree = "<group>"; };
 		DE59CC332C235BF600D0AAD8 /* HabitCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE59CC362C235BF600D0AAD8 /* HabitCycleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCycleApp.swift; sourceTree = "<group>"; };
 		DE59CC382C235BF600D0AAD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE59CC3A2C235BF700D0AAD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE59CC3D2C235BF700D0AAD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DED9FDD62C277A4700AFFF28 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		DED9FDD82C2785BE00AFFF28 /* ActivityAddForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAddForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				DE59CC362C235BF600D0AAD8 /* HabitCycleApp.swift */,
 				DE59CC382C235BF600D0AAD8 /* ContentView.swift */,
+				DED9FDD82C2785BE00AFFF28 /* ActivityAddForm.swift */,
+				DED9FDD62C277A4700AFFF28 /* Activity.swift */,
+				DE06E9792C281E7E00A5CE38 /* ActivityDetailsView.swift */,
 				DE59CC3A2C235BF700D0AAD8 /* Assets.xcassets */,
 				DE59CC3C2C235BF700D0AAD8 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED9FDD72C277A4700AFFF28 /* Activity.swift in Sources */,
 				DE59CC392C235BF600D0AAD8 /* ContentView.swift in Sources */,
+				DED9FDD92C2785BE00AFFF28 /* ActivityAddForm.swift in Sources */,
 				DE59CC372C235BF600D0AAD8 /* HabitCycleApp.swift in Sources */,
+				DE06E97A2C281E7E00A5CE38 /* ActivityDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
